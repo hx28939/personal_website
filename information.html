@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<link rel="stylesheet"
+		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	
+	<body>
+		<div class="headera">
+      	<img src="xin.jpg">
+		<img src="name.gif">
+        <ul class="nnaavv">
+        	<li><a href="index.html">Me</a></li>
+        	<li><a href="information.html">Information</a></li>
+        	<li><a href="contact.html">Contact</a></li>
+      	</ul>
+    	</div>
+    
+		<div class="container">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion"
+						href="#education">Education</a>
+						</h4>
+					</div>
+					<div id="education" class="panel-collapse collapse in">
+						<div class="panel-body"><strong>Michigan Technological University</strong><br>
+						<img src="mtu.jpg" style="float:right">
+						<pre>Bachelor of Electrical Engineering
+	GPA: 3.45	April 2012<br></pre>
+						<pre>Master of Science in Computer Engineering
+	GPA: 3.66	Summer 2014</pre>
+						</div>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion"
+						href="#project">Projects</a>
+						</h4>
+					</div>
+					<div id="project" class="panel-collapse collapse">
+						<div class="panel-body">
+						<pre><strong>Fast Circuit Simulation on Graphics Processing Units (BSIM4 Model)</strong>
+ -Accelerate simulation by paralleling work on thousands of threads, each thread simulates an independent circuit
+ -Divide the BSIM4 Model functions into seven kernels in order to release memory
+ -Create 3D look-up table to achieve faster speed over directly simulation. The table is implemented in both
+quadratic and cubic methods</pre>
+
+						<pre><strong>Spherical Harmonic Lighting</strong>
+Spherical harmonic lighting is one of the global illumination methods to calculate the lighting on a 3D model. 
+ -Load 3D models
+ -Create spherical samples and spherical harmonic coefficients
+ -Render and shadow the scene using calculated coefficients
+ 						</pre>
+ 						
+ 						<pre><strong>JAVA Simple Games Developing</strong>
+ -Implement five simple games using JAVA. The games are all similar level to Battleship
+ -There are also more than ten labs for specific topic practicing
+ 						</pre>
+ 						
+ 						<pre><strong>Simulation of SPICE on MATLAB</strong>
+ -Parser: read and transform data from net-list files in SPICE mode
+ -Deal with circuit consisted of resistors, inductors, capacitors and MOSFETs
+ -DC & AC analyzing
+ -Adaptive designing: save the running time when result is changing smoothly
+ 						</pre>
+ 						
+ 						<pre><strong>Digital Image Processing(MATLAB)</strong>
+ -Image deblurring (Richardson-Lucy Algorithm and Wiener Filter)
+ -Image enhancement, sharpening, smoothing and reconstruction
+ 						</pre>
+ 						
+ 						<pre><strong>Ray Tracing and Radiosity</strong>
+ -Implement path tracing and radiosity using C++
+ -Other projects included regarding to OpenGL, modeling, mapping, POV-Ray
+ 						</pre>
+ 						
+ 						<pre><strong>Micro-controller programming for PICAXE -18M2</strong>
+The team-project is to sense water in hydrant and send wireless transmitting results to a passing vehicle 
+telling if there is unwanted water inside. This would protect hydrant from frozen-harm in winter. PICAXE-18M2 
+is used to control the system working and send different orders other parts. The project is for East Jordan 
+Iron Works.
+ -Sensor designing: capacitor sensor works best inside hydrant;
+ -System circuit designing: breadboard made by EAGLE;
+ -Micro-controller programming: PICAXE -18M2. The code implements functions such as: waking up and starting to 
+  work if the transceiver received signal, using collected data from sensor to determine if there is water, 
+  controlling the transceiver to send signal to outside, setting the system to "sleeping" mode to save power;
+						</pre>
+						
+						
+						</div>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion"
+						href="#skills">Skills</a>
+						</h4>
+					</div>
+					<div id="skills" class="panel-collapse collapse">
+						<div class="panel-body">
+						<pre><strong>Versed:</strong>
+	Python    JavaScript    Matlab    CUDA    C/C++
+<strong>Experienced:</strong>
+	JAVA      HTML          CSS       jQuery  OpenGL
+	Django    Simulink      PLC
+						</pre>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion"
+						href="#honors">Honors</a>
+						</h4>
+					</div>
+					<div id="honors" class="panel-collapse collapse">
+						<div class="panel-body">
+						<pre><strong>3rd Prize in National Competition of Math in China (2006)
+3rd Prize in National Olympic Competition of Physics in China (2006)</strong>
+						</pre>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>	
+					
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>			
+	</body>
+	<footer>
+    	<div class="myfoot">
+    	<p>Thank You For Visiting My Website!<p>
+    	<p>Xin@2014</p>
+    	</div>
+    </footer>
+</html>
